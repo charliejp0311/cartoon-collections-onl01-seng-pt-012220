@@ -23,10 +23,10 @@ end
 def long_planeteer_calls(c)# code an argument here
   # Your code here
   i = 0
-  longer_than_four = false 
+  longer_than_four = false
   while i < c.length
     longer_than_four = (c[i].length > 4) ? true : false
-    if longer_than_four 
+    if longer_than_four
       longer_than_four
       break
     end
