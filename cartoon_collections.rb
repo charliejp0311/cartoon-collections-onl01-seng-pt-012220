@@ -22,7 +22,11 @@ end
 
 def long_planeteer_calls(c)# code an argument here
   # Your code here
-
+  i = 0
+  while i < c.length
+    c[i].length > 4 ? true : false
+    i += 1
+  end 
 end
 
 def find_the_cheese# code an argument here
