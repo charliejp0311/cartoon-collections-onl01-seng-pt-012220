@@ -45,5 +45,5 @@ def find_the_cheese(a)# code an argument here
       included_cheeses << chse
     end
   end
-  included_cheeses
+  pp included_cheeses
 end
